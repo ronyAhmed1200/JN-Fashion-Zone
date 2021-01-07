@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JN Fashion - The complete online shop for women</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;500;700&family=Titillium+Web:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- css styles file -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- header  -->
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-transparent fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo-min.png" alt="JN-Fashion-Zone"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item home">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- showcase starts -->
+      <div id="home" class="showcase">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide carousel-dark"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="container-fluid">
+              <div
+                class="carousel-1 carousel-item active"
+                data-bs-interval="8000"
+              >
+                <div class="carousel-1-inner row">
+                  <div class="carousel-left col-lg-6 col-md-6">
+                    <div class="text">
+                      <h1>winter collection</h1>
+                      <p>Get awesome winter clothes from here</p>
+                      <a
+                        href="#product"
+                        class="btn shop-now animate__animated animate__fadeInUpBig"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="carousel-right col-lg-5 col-md-6">
+                    <img src="./img/showcase1-min.png" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-2 carousel-item" data-bs-interval="8000">
+                <div class="carousel-1-inner row">
+                  <div class="carousel-right col-lg-5 col-md-6">
+                    <img src="./img/showcase2-min-min.png" alt="..." />
+                  </div>
+                  <div class="carousel-left col-lg-6 col-md-6">
+                    <div class="text">
+                      <h1>Jackets for women</h1>
+                      <p>Get awesome Jackets for women</p>
+                      <a href="#product" class="btn shop-now animate__bounce"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-3 carousel-item" data-bs-interval="8000">
+                <div class="carousel-1-inner row">
+                  <div class="carousel-left col-lg-6 col-md-6">
+                    <div class="text">
+                      <h1>Hoodie for women</h1>
+                      <p>Get awesome women hoodies from here</p>
+                      <a href="#product" class="btn shop-now animate__bounce"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                  <div class="carousel-right col-lg-5 col-md-6">
+                    <img src="./img/showcase3-min-min.png" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- header ends ----------------------->
+    <!-- product starts ------------------>
+    <section class="product_section">
+      <div class="container-fluid">
+        <h2>Our products</h2>
+        <div id="product" class="products">
+          <div class="product-item product-1">
+            <div class="product-img-container">
+              <div class="product-img">
+                <img src="./img/three-piece-1-min.png" alt="three-piece" />
+              </div>
+            </div>
+            <h3>Pink Three Piece</h3>
+            <p>Tk. 1800</p>
+            <a href="#contact" class="btn shop">Buy</a>
+          </div>
+          <div class="product-item product-2">
+            <div class="product-img-container">
+              <div class="product-img">
+                <img src="./img/three-piece-min.png" alt="three-piece" />
+              </div>
+            </div>
+
+            <h3>Orange Three Piece</h3>
+            <p>Tk. 1800</p>
+            <a href="#contact" class="btn shop">Buy</a>
+          </div>
+          <div class="product-item product-3">
+            <div class="product-img-container">
+              <div class="product-img">
+                <img src="./img/chunri-min.png" alt="Chunri" />
+              </div>
+            </div>
+
+            <h3>Nice Chunri</h3>
+            <p>Tk. 1400</p>
+            <a href="#contact" class="btn shop">Buy</a>
+          </div>
+          <div class="product-item product-4">
+            <div class="product-img-container">
+              <div class="product-img">
+                <img src="./img/bag-min.jpg" alt="bag" />
+              </div>
+            </div>
+
+            <h3>Stylish Ladies bag</h3>
+            <p>Tk. 1000</p>
+            <a href="#contact" class="btn shop">Buy</a>
+          </div>
+
+          <div class="product-item product-5">
+            <div class="product-img-container">
+              <div class="product-img">
+                <img src="./img/mask-min.jpg" alt="mask" />
+              </div>
+            </div>
+
+            <h3>KN95 mask</h3>
+            <p>Tk. 200</p>
+            <a href="#contact" class="btn shop">Buy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product ends -------------------->
+    <!-- Services starts -------------------->
+    <section id="service" class="service_section section-bg">
+      <div class="container-fluid">
+        <h2>Our Services</h2>
+        <div class="service">
+          <div class="row">
+            <div class="service-left col-lg-5 col-md-11">
+              <ul class="service-list">
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >We provide good quality products
+                </li>
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >100% cotton and comfortable to wear
+                </li>
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >Very stylish product
+                </li>
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >Online delivery services
+                </li>
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >Quick and instant delivery service
+                </li>
+                <li>
+                  <span class="list-icon"
+                    ><i class="fas fa-check-circle"></i></span
+                  >High quality product at low price
+                </li>
+              </ul>
+            </div>
+            <div class="service-right col-lg-6 col-md-11">
+              <iframe
+                src="https://www.youtube.com/embed/cuYX2wrJuy8"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services ends -------------------->
+    <!-- contact section starts -------------------->
+    <section class="contact" id="contact">
+      <div class="container-fluid">
+        <h2>Contact Us</h2>
+        <h3>Contact with us before buying</h3>
+        <p>
+          We provide the opportunity to contact with us before buying the
+          products for your family.
+        </p>
+        <a href="mailto:jnfashionzone@gmail.com" class="btn contact-btn"
+          >Contact Us</a
+        >
+      </div>
+    </section>
+    <!-- contact section ends ends -------------------->
+    <!-- footer stats -------------------->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="first-column col-lg-3 col-md-6 col-11">
+            <h4>Contact Info:</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-map-marker-alt"></i></span>Mirpur-13,
+                  Dhaka.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-phone-alt"></i></span>01557-768819</a
+                >
+              </li>
+              <li>
+                <a href="mailto:jnfashionzone@gmail.com"
+                  ><span><i class="fas fa-envelope"></i></span
+                  >jnfashionzone@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.facebook.com/JNFashionZone"
+                  ><span><i class="fab fa-facebook-f"></i></span>Our facebook
+                  page</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hide-small col-lg-3 col-md-6 col-11">
+            <h4>Information</h4>
+            <ul>
+              <li>
+                <a href="#">Delivery & Returns</a>
+              </li>
+              <li>
+                <a href="#">Track Order</a>
+              </li>
+              <li>
+                <a href="#">Help & Support</a>
+              </li>
+              <li>
+                <a href="#"> Shipping Info</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hide-small col-lg-3 col-md-6 col-11">
+            <h4>Customer Care</h4>
+            <ul>
+              <li>
+                <a href="#">Returns</a>
+              </li>
+              <li>
+                <a href="#">Shipping</a>
+              </li>
+              <li>
+                <a href="#">Size Guide</a>
+              </li>
+              <li>
+                <a href="#">Track Orders</a>
+              </li>
+            </ul>
+          </div>
+          <div class="fourth-column col-lg-3 col-md-6 col-11">
+            <h4>Social media</h4>
+            <div class="top-side">
+              <a href="https://www.facebook.com/JNFashionZone"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram-square"></i></a>
+              <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+            </div>
+            <p class="follow"><a href="#">Folow us on facebook</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; 2020,
+          <span class="company-name">JN Fashion Zone.</span> All Rights
+          Reserved.
+        </p>
+        <p>
+          Thanks to <span class="my-name">Rony Ahmed,</span> Frontend Web
+          Developer.
+        </p>
+      </div>
+    </footer>
+    <!-- footer ends -------------------->
+
+    <script src="./main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
