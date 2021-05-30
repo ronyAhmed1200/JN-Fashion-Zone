@@ -1,4 +1,6 @@
 # JN-Fashion-Zone
+   ![Gif-of-jn-fashion](https://media.giphy.com/media/Qbq2d3dbdbyCVsxiZT/giphy.gif)
+ 
 [demo](https://jn-fashion-zone.netlify.app/)
 
 ## it is an awesome business landing webpage for showing the products.
